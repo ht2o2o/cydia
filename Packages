@@ -40,26 +40,6 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
-Package: com.abcydia.appsyncunified10
-Version: 104.0
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/com.abcydia.appsyncunified10_104.0.deb
-Size: 59296
-MD5sum: e6d239da735a6fae5df6e371fb5da26a
-SHA1: 2dd9434095bd75dd05f6df172cf424f48bc5ee40
-SHA256: 3e92c4face1c8f24d3e8b96c56b6c43d7de65040d35d12f97359fe26616502d9
-Section: Tweaks
-Description: 关闭iOS App签名校验
-Author: Karen, Linus Yang
-Name: AppSync Unified 关闭签名
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.abcydia.betterhomedepot
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -153,7 +133,7 @@ Size: 164122
 MD5sum: d1799b336f266de7b502faabb0440a37
 SHA1: e81ca3856346dcc6aea8f870d1f343d2a14c32a8
 SHA256: 04aebb84b09f4b9ead6c598394360584054140106317ab8c050b60b2ecd29af8
-Section: HYI - Tweaks
+Section: Tweaks
 Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=folderenhancer
 Description: Improves and extends iOS folders.
 Author: Lance Fetters (ashikase) <repo@hackyouriphone.org>
