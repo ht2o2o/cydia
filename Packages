@@ -52,3 +52,64 @@ Icon: file:///Library/PreferenceBundles/Gravity.bundle/icon@2x.png
 Name: Gravity 图标重力感应
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: com.abcydia.kdfu
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Filename: debs/com.abcydia.kdfu_1.0-1.deb
+Size: 54372
+MD5sum: 287d6a64889e8ce9d017211f4ca7ea2d
+SHA1: 1ff841bca41ee83bb16b2eb50496406e60755db0
+SHA256: 805254eab4a2c47ccdb7d1ddbcaedb813141381100d14d0148aa05d4e1c1a77c
+Section: System
+Description: kDFU模式 用于iPad2/iPhone4S/5降级
+Author: ABCydia
+Name: kDFU4S/iPad2 kDFU降级模式
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.netfix
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 10.2.1)
+Filename: debs/com.abcydia.netfix_1.0-1.deb
+Size: 976
+MD5sum: 75283ba536601edb258c3c549e8edb45
+SHA1: b3e5fe5befb0f954f337e8b03bb51313b2124387
+SHA256: 2ab3c886cae8db812efaa42fe9b088673a5600c5c878c11a62946f318fa9eae7
+Section: System
+Description: 修复Cydia越狱后不能联网问题
+Author: ABCydia <admin@abcydia.com>
+Name: Netfix Cydia联网修正
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.haoerloveyou.killcameraS
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CC <haoerloveyou@gmail.com>
+Installed-Size: 21
+Filename: debs/com.haoerloveyou.killcameraS_1.1.deb
+Size: 3144
+MD5sum: e98c7d63d22fcd5cef501cbac3a6d780
+SHA1: 5ccf58d68d81ad0c0d7f691630b65bdaddc745bb
+SHA256: f53e06105e1d2690c433bec5fca6a32e699c1d65178e64d0b145e67044234d50
+Section: System
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: killCameraS 禁用日韩拍照声
+Sponsor: haoerloveyou <haoerloveyou@gmail.com>
+
+Package: com.haoerloveyou.lowerpowersound
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: haoerloveyou <haoerloveyou@gmail.com>
+Depends: firmware (>=6.0)
+Filename: debs/com.haoerloveyou.lowerpowersound_1.0.deb
+Size: 1344
+MD5sum: 53bbed838f2d3df64cb29154a18886c9
+SHA1: b60c0b0b23187d8b214155855b5b700f2c861d31
+SHA256: 7a7568cf032499455682f36fa67f16135de55d913a6718627ca8d84c2508f784
+Section: System
+Author: haoerloveyou <haoerloveyou@gmail.com>
+Name: 禁用国行低电提示音
+Sponsor: abcydia <http://abcydia.com>
+
