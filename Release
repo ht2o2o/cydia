@@ -1,0 +1,8 @@
+Origin: HT2O2O Repo
+Label: HT2O2O Repo
+Suite: stable
+Version: 1.0
+Codename: ht2o2o
+Architectures: iphoneos-arm
+Components: main
+Description: a cydia repo
