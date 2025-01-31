@@ -84,7 +84,7 @@ Size: 665440
 MD5sum: ff9983edd6798cbc72d4a12462c31331
 SHA1: 5ea65e64a0d63629c0c5b0591c85384ab192b32c
 SHA256: d13219b6210cb434f0bc9fd6b7e00b12822ea69574a236198169132260ec865c
-Section: system
+Section: System
 Priority: optional
 Description: 最专业的iOS、Android游戏变速神器，免费无广告，烧饼哥出品。支持iOS5.0至iOS7.1的所有设备。V1.1更新内容: (1.)解决部分游戏加速闪退等问题（防屏蔽）；(2.)调整暂停加速时逻辑；(3.)增加U3D游戏检测。烧饼辅助Cydia源地址：apt.sbtools.me
 Author: 烧饼哥<http://sbtools.me/>
@@ -132,6 +132,7 @@ Size: 7516554
 MD5sum: 1e68b613e06edd7873056d7aff0be802
 SHA1: 669b9a7594c10eb8cd891cb0b691e7ef53618c9c
 SHA256: ace77e69e2433f4d45a38293bd2808b0fb180a73fb9dc398d1ba57b5545d64ce
+Section: System
 Priority: extra
 Homepage: http://redd00r.com
 Description: Redd00r for you iPod touch on iOS4.2.1! See the whited00r forums for more info.
@@ -269,4 +270,127 @@ Description: AppSync for iOS 4 allows you to sync and install unsigned iOS appli
 Author: Karen/あけみ, Dissident <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
+
+Package: com.filippobiga.springtomize2
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 506
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Conflicts: com.filippobiga.springtomize
+Filename: debs/com.filippobiga.springtomize2_1.4-1_downyi.com.deb
+Size: 194524
+MD5sum: a56f1f9a33d9228b6f0a9074ef5e2c8d
+SHA1: 64582cc42260ca897583b23e621d5a0ca38d1982
+SHA256: d08f60450408b1fc03783f002a4a6e66e46fe0c9c962e2454ec0415d3e0ff7bc
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Description: SpringBoard, the way you want it. All over again.
+Tag: cydia::commercial, purpose::extension
+Author: FilippoBiga <filippobiga.dev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=springtomize2Dp
+Dev: filippobiga
+Icon: file:///Applications/springtomizeapp.app/Icon.png
+Name: Springtomize 2 - iOS 5 & 6
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.hacktouch.springtomize
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: DaniiStaff <daniistaff@cracktouch.com>
+Depends: mobilesubstrate, preferenceloader, com.hacktouch.icon
+Filename: debs/springtomize2_downyi.com.deb
+Size: 89714
+MD5sum: 90bff147f828d41890e30df76c50c0cd
+SHA1: 6fe40263fc53cf9a38ca325d47bfa967b45b65ba
+SHA256: 29a99c524a6973e00b916ac4d9bdb9a0e8c66a63746e9008cb13729020bf78af
+Section: CrackTouch Repo
+Homepage: http://www.cracktouch.com
+Description: Muchas opciones para tu SpringBoard
+ CrackTouch
+Author: DaniiStaff <daniistaff@cracktouch.com>
+Name: Springtomize
+Sponsor: Ray <http://www.cracktouch.com>
+
+Package: com.rpetrich.iconrenamer
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 136
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2)
+Filename: debs/com.rpetrich.iconrenamer_1.2.5_iphoneos-arm.deb
+Size: 23486
+MD5sum: a4965a5ffd4dff240183fdf2d492b4d8
+SHA1: 8279ca488a6dc9b49d21d79829aca30c4d2df679
+SHA256: 1e8c28917ec897789a1e79bb69102a135d1f2028402316fdd7483fa7842acb28
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/iconrenamer/
+Description: Rename icons from your SpringBoard
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/iconrenamer/
+Dev: rpetrich
+Name: Icon Renamer 图标重命名
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tylerflowers.clockcenter
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.3901), com.chpwn.weeloader
+Filename: debs/com.tylerflowers.clockcenter_1.0.2.deb
+Size: 98554
+MD5sum: fb291d957a5db1c6e3acbb6abb9eabae
+SHA1: 94ebaf7354e435dddce7e5d1bee1346136dd7340
+SHA256: 17e72ec4923e3892f0eecdd85906cd3b290af156b449600b0305ebe0f6d598a6
+Section: Addons (NotificationCenter)
+Priority: extra
+Homepage: http://modmyi.com/info/clockcenter.php
+Description: A simple clock and date widget for the notification center.
+Author: tyler29294 <tyler29294@gmail.com>
+Depiction: http://modmyi.com/info/clockcenter.d.php
+Name: ClockCenter 通知中心时钟
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: eu.heinelt.ifile
+Version: 1.5.0-4
+Architecture: iphoneos-arm
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Installed-Size: 8860
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar
+Filename: debs/ifile_1.5.0-4_USCat_fix3.deb
+Size: 3053630
+MD5sum: 2ccc1cf069f917eb595c61ee51e6ffaa
+SHA1: af1c84ae8aeb0a13b4c3f1759adca7eabeb2b687
+SHA256: ed2e1ab08b5148a4d49d1e465c1515a5b3d97e9fe34bdd38cb4cdcb97b9c6292
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Tag: purpose::uikit, cydia::commercial
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
+Dev: carsten
+Name: iFile
+
+Package: org.thebigboss.blurriedncbackground
+Version: 3.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 24
+Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader
+Filename: debs/blurriedncbackground_3.0-1.deb
+Size: 12962
+MD5sum: dab88b57382279191a793c994acb48c1
+SHA1: ea50310e650ae6b04af6da008af9a5d96d0b437d
+SHA256: 1fd98a17930bd85ddda970aad3e5cd225cf49ebf72e74a27223c5a9cb3bd073b
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurriedncbackgroundDp
+Description: blurred wallpaper behind NotificationCenter
+Tag: purpose::extension
+Author: Philippe <philippemail1@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=blurriedncbackgroundDp
+Dev: philippemail1
+Icon: file:///Library/PreferenceLoader/Preferences/bncb/bncb@2x.png
+Name: BlurriedNCBackground 透明通知中心背景
+Sponsor: thebigboss.org <http://thebigboss.org>
 
