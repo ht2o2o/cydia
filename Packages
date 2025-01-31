@@ -85,6 +85,24 @@ SHA1: 1ff841bca41ee83bb16b2eb50496406e60755db0
 SHA256: 805254eab4a2c47ccdb7d1ddbcaedb813141381100d14d0148aa05d4e1c1a77c
 Section: System
 Description: kDFU模式 用于iPad2/iPhone4S/5降级
+
+Package: me.sbtools.SpeedManager
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: <sbtools.me@gmail.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/me.sbtools.SpeedManager_1.1_1iphoneos-arm.deb
+Size: 665440
+MD5sum: ff9983edd6798cbc72d4a12462c31331
+SHA1: 5ea65e64a0d63629c0c5b0591c85384ab192b32c
+SHA256: d13219b6210cb434f0bc9fd6b7e00b12822ea69574a236198169132260ec865c
+Section: system
+Priority: optional
+Description: 最专业的iOS、Android游戏变速神器，免费无广告，烧饼哥出品。支持iOS5.0至iOS7.1的所有设备。V1.1更新内容: (1.)解决部分游戏加速闪退等问题（防屏蔽）；(2.)调整暂停加速时逻辑；(3.)增加U3D游戏检测。烧饼辅助Cydia源地址：apt.sbtools.me
+Author: 烧饼哥<http://sbtools.me/>
+Depiction: http://sbtools.me/ios/
+Name: 烧饼加速器
+
 Author: ABCydia
 Name: kDFU4S/iPad2 kDFU降级模式
 Sponsor: ABCydia <http://www.abcydia.com>
