@@ -19,6 +19,30 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: liveclock
+Version: 0.7
+Architecture: iphoneos-arm
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.2660-1), firmware (>= 3.0)
+Conflicts: livetime
+Replaces: livetime
+Provides: livetime
+Filename: debs/liveclock_0.7_iphoneos-arm.deb
+Size: 47346
+MD5sum: 1b52367259bfe07de985beea075094f6
+SHA1: 750f547b6177be4cf6355b8a4b370615f549aa9a
+SHA256: 83cea080db28f8df26dfebe0fa127b798a3d763bc7d01c0b68af16e5b4c3bb5a
+Section: System
+Priority: optional
+Description: Animated Clock icon on the SpringBoard
+ Adds customizable animation to the SpringBoard Clock icon.
+ Themeable with WinterBoard
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://rpetri.ch/cydia/liveclock/
+Dev: rpetrich
+Name: LiveClock
+Website: http://rpetri.ch/cydia/liveclock/
+
 Package: ai.akemi.appsyncunified
 Version: 112.0
 Architecture: iphoneos-arm
@@ -304,7 +328,7 @@ Size: 89714
 MD5sum: 90bff147f828d41890e30df76c50c0cd
 SHA1: 6fe40263fc53cf9a38ca325d47bfa967b45b65ba
 SHA256: 29a99c524a6973e00b916ac4d9bdb9a0e8c66a63746e9008cb13729020bf78af
-Section: CrackTouch Repo
+Section: Tweaks
 Homepage: http://www.cracktouch.com
 Description: Muchas opciones para tu SpringBoard
  CrackTouch
@@ -343,7 +367,7 @@ Size: 98554
 MD5sum: fb291d957a5db1c6e3acbb6abb9eabae
 SHA1: 94ebaf7354e435dddce7e5d1bee1346136dd7340
 SHA256: 17e72ec4923e3892f0eecdd85906cd3b290af156b449600b0305ebe0f6d598a6
-Section: Addons (NotificationCenter)
+Section: Tweaks
 Priority: extra
 Homepage: http://modmyi.com/info/clockcenter.php
 Description: A simple clock and date widget for the notification center.
