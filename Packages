@@ -68,7 +68,7 @@ Package: com.abcydia.betterhomedepot
 Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Conflicts: cy+cpu.arm64
 Filename: debs/com.abcydia.betterhomedepot_1.2.0.deb
 Size: 21108
