@@ -23,7 +23,7 @@ Package: liveclock
 Version: 0.7
 Architecture: iphoneos-arm
 Installed-Size: 112
-Depends: mobilesubstrate (>= 0.9.2660-1), firmware (>= 3.0)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Conflicts: livetime
 Replaces: livetime
 Provides: livetime
@@ -85,7 +85,7 @@ Package: com.abcydia.gravity
 Version: 0.5-3
 Architecture: iphoneos-arm
 Maintainer: WZteam <admin@abcydia.com>
-Depends: mobilesubstrate, preferenceloader
+Depends: referenceloader, firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/com.abcydia.gravity_0.5-3.deb
 Size: 501456
 MD5sum: 3738f19a532ec6e59d116c03bf717679
@@ -102,7 +102,7 @@ Package: me.sbtools.SpeedManager
 Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: <sbtools.me@gmail.com>
-Depends: firmware (>= 5.0), mobilesubstrate
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/me.sbtools.SpeedManager_1.1_1iphoneos-arm.deb
 Size: 665440
 MD5sum: ff9983edd6798cbc72d4a12462c31331
@@ -119,6 +119,7 @@ Package: com.abcydia.kdfu
 Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/com.abcydia.kdfu_1.0-1.deb
 Size: 54372
 MD5sum: 287d6a64889e8ce9d017211f4ca7ea2d
@@ -134,7 +135,7 @@ Package: com.abcydia.netfix
 Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: WZteam <admin@abcydia.com>
-Depends: firmware (>= 10.2.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/com.abcydia.netfix_1.0-1.deb
 Size: 976
 MD5sum: 75283ba536601edb258c3c549e8edb45
@@ -168,7 +169,7 @@ Package: com.hackyouriphone.folderenhancer
 Version: 1.9.8.2-2
 Architecture: iphoneos-arm
 Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>= 4.0), firmware (<< 6.2), mobilesubstrate, preferenceloader (>= 2.0.2-1), com.chpwn.iconsupport (>= 1.7.3), jp.ashikase.symbolicate
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader (>= 2.0.2-1), com.chpwn.iconsupport (>= 1.7.3), jp.ashikase.symbolicate, firmware (<= 16.5.1)
 Conflicts: jp.ashikase.multiiconmover (<< 1.0.5), net.limneos.foldersinfolders, net.limneos.scrollingboard (<< 2.7-2), com.yllier.foldercloser, com.chpwn.gridlock (<< 1.2), com.chpwn.infiniboard (<< 1.6), net.r-ch.iconoclasm (<< 1.7)
 Filename: debs/com.hackyouriphone.folderenhancer_1.9.8.2-2_iphoneos-arm.deb
 Size: 164122
@@ -187,6 +188,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: CC <haoerloveyou@gmail.com>
 Installed-Size: 21
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/com.haoerloveyou.killcameraS_1.1.deb
 Size: 3144
 MD5sum: e98c7d63d22fcd5cef501cbac3a6d780
@@ -201,7 +203,7 @@ Package: com.haoerloveyou.lowerpowersound
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: haoerloveyou <haoerloveyou@gmail.com>
-Depends: firmware (>=6.0)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Filename: debs/com.haoerloveyou.lowerpowersound_1.0.deb
 Size: 1344
 MD5sum: 53bbed838f2d3df64cb29154a18886c9
@@ -217,7 +219,7 @@ Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: firmware (<< 8.0) | mobilesubstrate
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
@@ -239,7 +241,7 @@ Version: 0.9.6001
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 156
-Depends: mobilesubstrate (>= 0.9.3367+38)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
 Filename: debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
@@ -259,7 +261,7 @@ Version: 0.9.6301
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
+Depends: com.saurik.substrate.safemode, firmware (>= 5.0), firmware (<= 16.5.1)
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
 Replaces: cycript (<= 0.9.594)
@@ -300,7 +302,7 @@ Version: 1.4-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 506
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader, com.filippobiga.springtomize2-icons, com.filippobiga.springtomize2-localizations, firmware (<= 16.5.1)
 Conflicts: com.filippobiga.springtomize
 Filename: debs/com.filippobiga.springtomize2_1.4-1_downyi.com.deb
 Size: 194524
@@ -322,7 +324,7 @@ Package: com.hacktouch.springtomize
 Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: DaniiStaff <daniistaff@cracktouch.com>
-Depends: mobilesubstrate, preferenceloader, com.hacktouch.icon
+Depends: mobilesubstrate, preferenceloader,Depends: firmware (>= 5.0), firmware (<= 16.5.1)
 Filename: debs/springtomize2_downyi.com.deb
 Size: 89714
 MD5sum: 90bff147f828d41890e30df76c50c0cd
@@ -341,7 +343,7 @@ Version: 1.2.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 136
-Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2)
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), firmware (<= 16.5.1)
 Filename: debs/com.rpetrich.iconrenamer_1.2.5_iphoneos-arm.deb
 Size: 23486
 MD5sum: a4965a5ffd4dff240183fdf2d492b4d8
@@ -361,7 +363,7 @@ Package: com.tylerflowers.clockcenter
 Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.3901), com.chpwn.weeloader
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1), com.chpwn.weeloader
 Filename: debs/com.tylerflowers.clockcenter_1.0.2.deb
 Size: 98554
 MD5sum: fb291d957a5db1c6e3acbb6abb9eabae
@@ -381,7 +383,7 @@ Version: 1.5.0-4
 Architecture: iphoneos-arm
 Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Installed-Size: 8860
-Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar,firmware (>= 4.0), firmware (<= 16.5.1)
 Filename: debs/ifile_1.5.0-4_USCat_fix3.deb
 Size: 3053630
 MD5sum: 2ccc1cf069f917eb595c61ee51e6ffaa
@@ -400,7 +402,7 @@ Package: org.thebigboss.blurriedncbackground
 Version: 3.0-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.3901)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
 Installed-Size: 24
 Filename: debs/blurriedncbackground_3.0-1.deb
 Size: 12962
